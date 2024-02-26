@@ -279,7 +279,7 @@
 						<hr class="colorful" />
 						<div class="chatbot-conversation-container" id="chatbot-conversation-container"></div>
 						<form id="form" class="chatbot-input-container">
-							<input name="user-input" type="text" id="user-input" required>
+							<input name="user-input" type="text" id="user-input" autocomplete="off" required>
 							<button id="submit-btn" class="submit-btn">
 								<img src="${BASE_URL}images/send.png" class="send-btn-icon">
 							</button>

@@ -15,8 +15,8 @@ document.addEventListener('submit', (e) => {
 
 const llm = new ChatGoogleGenerativeAI({
 	apiKey: apiKey,
-	modelName: "gemini-pro",
-	maxOutputTokens: 2048,
+	modelName: "gemini-1.5-flash",
+	maxOutputTokens: 8192,
 	verbose: false
 });
 
